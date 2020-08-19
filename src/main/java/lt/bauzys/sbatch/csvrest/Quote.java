@@ -6,13 +6,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
 
-    @JsonProperty("Id")
-    private String id;
-    @JsonProperty("Quote")
-    private String quote;
-
-    public Quote() {
-    }
+    @JsonProperty("Id") private String id;
+    @JsonProperty("Quote") private String quote;
 
     public String getId() {
         return id;
